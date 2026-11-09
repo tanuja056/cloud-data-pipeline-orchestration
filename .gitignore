@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+data/*.csv
+data/*.parquet
+config/config.json
+
+# Generated pipeline data
+data/
+
+# Python environments
+.airflow_venv/
+.venv/
+venv/
+
+# Airflow generated files
+airflow/
+logs/
+
+# Python and test caches
+.pytest_cache/
+.mypy_cache/
